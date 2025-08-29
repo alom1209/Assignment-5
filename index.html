@@ -16,21 +16,21 @@
         <nav class="w-11/12 mx-auto  flex flex-col gap-2 md:flex-row justify-between md:max-h-[100px] mt-3 ">
             <div class="flex gap-1  justify-center">
                 <img src="./assets/logo.png" alt="" class="h-[35px] mt-1 ">
-                <h2 class="font-bold text-[#006747] text-sm md:text-base ">Emergency <br> Service</h2>
+                <h2 class="font-bold text-[#006747] text-sm md:text-base ">Emergency <br>Service</h2>
             </div>
             <div class="flex flex-col justify-center items-center md:flex-row justify-around gap-1 md:gap-5">
                 <div class=" flex items-center justify-center px-2 py-1 bg-[#41ff6b1a] rounded-[50px] gap-1 w-[100px]">
-                    <p class="font-bold">0</p>
+                    <span id="heart-count" class="font-bold">0</span>
                     <img src="./assets/heart.png" alt="" class="h-[20px]">
                 </div>
                 <div class="flex  items-center justify-center  px-2 py-1  bg-[#41ff6b1a] rounded-[50px] gap-1 w-[100px]">
-                    <p class="font-bold">100</p>
+                    <span class="font-bold" id="coin-display">100</span>
                     <img src="./assets/coin.png" alt="" class="h-[20px]">
                 </div>
                 
                 <div class="flex  items-center justify-center px-2 py-1  bg-[#00a63e] text-white rounded-[50px] gap-1 w-[100px]">
-                    <p class="font-semibold">0</p>
-                    <p>Copy</p>
+                    <p class="font-semibold" id="copy-count">0</p>
+                    <span >Copy</span>
                 </div>
             </div>
         </nav>
@@ -55,7 +55,7 @@
         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
     </div>
     <div class="mt-[10px]">
-        <h2 class="text-base font-bold">National Emergency Number</h2>
+        <h2 class="text-base font-bold hind-madurai-bold" >National Emergency Number</h2>
         <p class="text-[#5C5C5C] text-sm">National Emergency</p>
     </div>
     <div class="mt-5">
@@ -63,11 +63,11 @@
         <p class="bg-[#F2F2F2] max-w-[60px] text-center rounded-xl text-[#5C5C5C]">All</p>
     </div>
     <div class="flex justify-between gap-2 mt-2">
-        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2">
+        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2 copy-btn">
          <i class="fa-regular fa-copy"></i>
          <span class="text-[#5C5C5C]">Copy</span>
         </button>
-        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1">
+        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1 call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
         </button>
@@ -83,7 +83,7 @@
         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
     </div>
     <div class="mt-[10px]">
-        <h2 class="text-base font-bold">Police Helpline Number</h2>
+        <h2 class="text-base font-bold hind-madurai-bold">Police Helpline Number</h2>
         <p class="text-[#5C5C5C] text-sm">Police</p>
     </div>
     <div class="mt-5">
@@ -91,11 +91,11 @@
         <p class="bg-[#F2F2F2] max-w-[60px] text-center rounded-xl text-[#5C5C5C]">Police</p>
     </div>
     <div class="flex justify-between gap-2 mt-2">
-        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2">
+        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2 copy-btn">
          <i class="fa-regular fa-copy"></i>
          <span class="text-[#5C5C5C]">Copy</span>
         </button>
-        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1">
+        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1 call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
         </button>
@@ -111,7 +111,7 @@
         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
     </div>
     <div class="mt-[10px]">
-        <h2 class="text-base font-bold">Fire Service Number</h2>
+        <h2 class="text-base font-bold hind-madurai-bold">Fire Service Number</h2>
         <p class="text-[#5C5C5C] text-sm">Fire</p>
     </div>
     <div class="mt-5">
@@ -119,11 +119,11 @@
         <p class="bg-[#F2F2F2] max-w-[60px] text-center rounded-xl text-[#5C5C5C]">Fire</p>
     </div>
     <div class="flex justify-between gap-2 mt-2">
-        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2">
+        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2 copy-btn">
          <i class="fa-regular fa-copy"></i>
          <span class="text-[#5C5C5C]">Copy</span>
         </button>
-        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1">
+        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1 call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
         </button>
@@ -139,7 +139,7 @@
         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
     </div>
     <div class="mt-[10px]">
-        <h2 class="text-base font-bold">Ambulance Service</h2>
+        <h2 class="text-base font-bold hind-madurai-bold">Ambulance Service</h2>
         <p class="text-[#5C5C5C] text-sm">Ambulance</p>
     </div>
     <div class="mt-5">
@@ -147,11 +147,11 @@
         <p class="bg-[#F2F2F2] max-w-[60px] text-center rounded-xl text-[#5C5C5C]">Health</p>
     </div>
     <div class="flex justify-between gap-2 mt-2">
-        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2">
+        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2 copy-btn">
          <i class="fa-regular fa-copy"></i>
          <span class="text-[#5C5C5C]">Copy</span>
         </button>
-        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1">
+        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1 call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
         </button>
@@ -167,7 +167,7 @@
        <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
     </div>
     <div class="mt-[10px]">
-        <h2 class="text-base font-bold">Women & Child Helpline</h2>
+        <h2 class="text-base font-bold hind-madurai-bold">Women & Child Helpline</h2>
         <p class="text-[#5C5C5C] text-sm">Women & Child Helpline</p>
     </div>
     <div class="mt-5">
@@ -175,11 +175,11 @@
         <p class="bg-[#F2F2F2] max-w-[60px] text-center rounded-xl text-[#5C5C5C]">Help</p>
     </div>
     <div class="flex justify-between gap-2 mt-2">
-        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2">
+        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2 copy-btn">
          <i class="fa-regular fa-copy"></i>
          <span class="text-[#5C5C5C]">Copy</span>
         </button>
-        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1">
+        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1 call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
         </button>
@@ -195,7 +195,7 @@
         <button class="heart-btn"><i class="fa-regular fa-heart"></i></button>
     </div>
     <div class="mt-[10px]">
-        <h2 class="text-base font-bold">Anti-Corruption Helpline</h2>
+        <h2 class="text-base font-bold hind-madurai-bold">Anti-Corruption Helpline</h2>
         <p class="text-[#5C5C5C] text-sm">Anti-Corruption </p>
     </div>
     <div class="mt-5">
@@ -203,11 +203,11 @@
         <p class="bg-[#F2F2F2] max-w-[60px] text-center rounded-xl text-[#5C5C5C]">Govt.</p>
     </div>
     <div class="flex justify-between gap-2 mt-2">
-        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2">
+        <button class="flex justify-center items-center gap-1 border border-[#5C5C5C] rounded-lg w-1/2 py-2 copy-btn">
          <i class="fa-regular fa-copy"></i>
          <span class="text-[#5C5C5C]">Copy</span>
         </button>
-        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1">
+        <button class="bg-[#00A63E] text-white flex justify-center items-center rounded-lg py-2 w-1/2 gap-1 call-btn">
             <i class="fa-solid fa-phone"></i>
             <span>Call</span>
         </button>
@@ -216,24 +216,18 @@
 </div>
  </section>
 
-         <aside class=" col-span-1 md:col-span-3  bg-white rounded-xl ">
-           <div class="mx-[15px] mt-[14px] flex justify-between gap-4">
+         <aside class=" col-span-1 md:col-span-3  bg-white rounded-xl" >
+           <div class="mx-[15px] mt-[14px] flex justify-between gap-4" >
             <div class="my-[12px] ">
              <i class="fa-solid fa-clock-rotate-left"></i>
-            <span class="font-semibold text-center    ">Call History</span>
+            <span class="font-semibold text-center">Call History</span>
            </div>
            <button class="bg-[#00A63E] text-white w-[114px] h-[50px] rounded-[50px]">
-            <p class="font-semibold">Clear</p>
+            <span class="font-semibold" id="clear-btn">Clear</span>
            </button>
            </div>
-           <div class="flex justify-between items-center ml-1 mr-1 bg-gray-100 mt-3 p-2 rounded-lg">
-            <div>
-            <h2 class="font-semibold ">Fire Service Number</h2>
-            <span>999</span>
-           </div>
-           <div>
-            <span>11:36:58 AM</span>
-           </div>
+           <div  id="history-container">
+            
            </div>
          </aside>
         </section> 
